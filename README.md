@@ -7,7 +7,8 @@ Use this repository template to create an "osbooks" repository for a new book. I
 
 1. **Create osbook repository** - by using this template repository.
 2. **Customize files for new book** - by editing `collections/template-slug.collection.xml`, `META-INF/books.xml`, and `canonical.json`.
-3. **Test your book in Gitpod** - open the book inside Gitpod, try adding modules and subcollections to ensure that it works.
+3. **Add user permissions*** - allow people to edit the book.
+4. **Test your book in Gitpod** - open the book inside Gitpod, try adding modules and subcollections to ensure that it works.
 
 ---
 
@@ -39,6 +40,8 @@ Use this repository template to create an "osbooks" repository for a new book. I
         - the title in the `<md:title>` field
         - the slug in the `<md:slug>` field
         - and if necessary, the license in the `<md:license>` field
+        - the collection number in the `<md:collection-id>` field
+        - the language code in the `<md:language>` field
 2. Edit the `META-INF/books.xml`
     - replace `template.collection.xml` in the `<book>` field with the name of the file created in step 1
         - if this repo is for a bundle, each book will require their own `<book>` field, directing too the associated `collection.xml`
@@ -51,3 +54,16 @@ Use this repository template to create an "osbooks" repository for a new book. I
    - [CC-BY 4.0](https://github.com/openstax/content-synchronizer/blob/main/licenses/by-4.0)
    - [CC-BY-NC-SA 4.0](https://github.com/openstax/content-synchronizer/blob/main/licenses/by-nc-sa-4.0)
    - [CC-SA 4.0](https://github.com/openstax/content-synchronizer/blob/main/licenses/by-sa-4.0)
+
+## Add user permissions
+
+1. Change permissions with manage permissions
+   1. On GitHub, navigate to the main page of this repository.
+   2. On top navigation tabs, click **Settings**.
+   3. On left navigation, click **Manage access**.
+   4. Using the Manage Acccess panel, to add:
+      - @ce-all, Role: Write
+      - @content-managers, Role: Admin
+      - @m1yag1, Role: Admin
+      - vendor, Role: Write
+      - anyone, Role: Read
