@@ -8,6 +8,8 @@
     <md:title>Replace with Title</md:title>
     <md:slug>template-slug</md:slug>
     <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+    <md:content-id>col00000</md:content-id>
+    <md:language>language-code</md:language>
   </col:metadata>
   <col:content>
 
