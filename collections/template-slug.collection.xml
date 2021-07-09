@@ -1,7 +1,8 @@
 <col:collection 
   xmlns:col="http://cnx.rice.edu/collxml"
   xmlns:md="http://cnx.rice.edu/mdml"
-  xmlns:sys="http://cnx.rice.edu/system-info">
+  xmlns:sys="http://cnx.rice.edu/system-info"
+  xmlns="http://cnx.rice.edu/collxml">
 
   <col:metadata>
     <md:uuid>00000000-0000-0000-0000-000000000000</md:uuid>
