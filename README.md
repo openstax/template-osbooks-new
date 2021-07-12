@@ -32,7 +32,7 @@ Use this repository template to create an "osbooks" repository for a new book. I
 
 ## Customize files for new book
 
-1. Edit the `collection/template-slug.collection.xml'
+1. Edit the `collection/template-slug.collection.xml`
     
     -rename the file by replacing `template-slug` in the filename with the book slug (eg. `university-physics-volume-1.collection.xml`).
         - if the repo is for a bundle (contain multiple books), each book will require their own collection.xml file.
@@ -44,9 +44,10 @@ Use this repository template to create an "osbooks" repository for a new book. I
         - the collection number in the `<md:collection-id>` field
         - the language code in the `<md:language>` field
 2. Edit the `META-INF/books.xml`
-    - replace `template.collection.xml` in the `<book>` field with the name of the file created in step 1
+    - replace `template.collection.xml` in the `<book href="">` field with the name of the file created in step 1
+    - replace the book slug in the `<book slug="">` field
         - if this repo is for a bundle, each book will require their own `<book>` field, directing too the associated `collection.xml`
-3. Edit the `canonical.json
+3. Edit the `canonical.json`
     - add the slug to the list.
         - if this repo is for a bundle, each book slug will need to be added to the list.
 
@@ -65,6 +66,6 @@ Use this repository template to create an "osbooks" repository for a new book. I
    4. Using the Manage Acccess panel, to add:
       - @ce-all, Role: Write
       - @content-managers, Role: Admin
-      - @m1yag1, Role: Admin
-      - vendor, Role: Write
+      - m1yag1, Role: Admin
+      - {vendor account}, Role: Write
       - anyone, Role: Read
