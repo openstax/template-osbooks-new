@@ -71,12 +71,12 @@ Use this repository template to create an "osbooks" repository for a new book. I
    2. On top navigation tabs, click **Settings**.
    3. On left navigation, click **Manage access**.
    4. Using the Manage Acccess panel, to add:
-      - @ce-all, Role: Write
-      - @content-managers, Role: Admin
+      - openstax/ce-all, Role: Write
+      - openstax/content-managers, Role: Admin
       - m1yag1, Role: Admin
       - ne-newton, Role: Admin
       - {vendor account}, Role: Write
-      - @all, Role: Read
+      - openstax/all, Role: Read
 ![Screen Shot 2021-07-20 at 7 49 47 AM](https://user-images.githubusercontent.com/30244554/126347844-c9ce2a0a-0b8d-42b1-bff4-943605d2af3e.png)
 
 ## Final Steps
