@@ -10,8 +10,6 @@ Use this repository template to create an "osbooks" repository for a new book. I
 3. **Add user permissions*** - allow people to edit the book.
 4. **Test your book in Gitpod** - open the book inside Gitpod, try adding modules and subcollections to ensure that it works.
 
-These steps can also be viewed in a [Google Doc file](https://docs.google.com/document/d/1irEQNhKhHWnVLHDX1_LLs7XKYC6ca3PofG4tgZc3Ovg/edit?usp=sharing)
-
 ---
 
 ## Create osbook repository
