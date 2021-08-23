@@ -34,35 +34,38 @@ Use this repository template to create an "osbooks" repository for a new book. I
 
 ## Customize files for new book
 
-1. Edit the `collection/template-slug.collection.xml`
+1. Once the repository is created, navigate to the `COLLECTIONS` folder. Edit the `collection/template-slug.collection.xml`
     
-    -rename the file by replacing `template-slug` in the filename with the book slug (eg. `university-physics-volume-1.collection.xml`).
+    -rename the file by replacing `template-slug` in the filename with the created book slug (eg. `university-physics-volume-1.collection.xml`).
         - if the repo is for a bundle (contain multiple books), each book will require their own collection.xml file.
     - inside the file replace:
         - the uuid with in the `<md:uuid>` field with one genreated [here](https://www.uuidtools.com/v4)
         - the title in the `<md:title>` field
         - the slug in the `<md:slug>` field
         - and if necessary, the license in the `<md:license>` field
-        - the collection number in the `<md:collection-id>` field
-        - the language code in the `<md:language>` field
+        - the collection number in the `<md:content-id>` field
+        - the language code in the `<md:language>` field. (`en` for english, `pl` for polish, or `sp` for spanish)
     ![Screen Shot 2021-07-20 at 7 36 30 AM](https://user-images.githubusercontent.com/30244554/126344043-27c4b5aa-c2e9-421b-a3e6-60ca95cd39ef.png)
+    - commit changes
 
-2. Edit the `META-INF/books.xml`
+2. Navigate to the `META-INF` folder, and edit the `META-INF/books.xml`
     - replace `template.collection.xml` in the `<book href="">` field with the name of the file created in step 1
     - replace the book slug in the `<book slug="">` field
         - if this repo is for a bundle, each book will require their own `<book>` field, directing too the associated `collection.xml`
     ![Screen Shot 2021-07-20 at 7 45 29 AM](https://user-images.githubusercontent.com/30244554/126344715-395b1ab9-9e23-400a-92f1-f903b7d605e3.png)
+    - commit changes
 
-3. Edit the `canonical.json`
-    - add the slug to the list.
+3. Navigate to the `CANONICAL.JSON` file and edit the `canonical.json`
+    - add the created slug to the list.
         - if this repo is for a bundle, each book slug will need to be added to the list.
     ![Screen Shot 2021-07-20 at 7 47 20 AM](https://user-images.githubusercontent.com/30244554/126344968-91721928-202c-459c-ab6f-48ae32ec1cb4.png)
 
-4. Copy/Paste one of the following into `LICENSE` file:
+4. Navigate to the `LICENSE` file and Copy/Paste one of the following into `LICENSE` file:
 
    - [CC-BY 4.0](https://github.com/openstax/content-synchronizer/blob/main/licenses/by-4.0)
    - [CC-BY-NC-SA 4.0](https://github.com/openstax/content-synchronizer/blob/main/licenses/by-nc-sa-4.0)
    - [CC-SA 4.0](https://github.com/openstax/content-synchronizer/blob/main/licenses/by-sa-4.0)
+   - commit changes
 
 ## Add user permissions
 
