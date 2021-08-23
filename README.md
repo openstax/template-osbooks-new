@@ -59,6 +59,7 @@ Use this repository template to create an "osbooks" repository for a new book. I
     - add the created slug to the list.
         - if this repo is for a bundle, each book slug will need to be added to the list.
     ![Screen Shot 2021-07-20 at 7 47 20 AM](https://user-images.githubusercontent.com/30244554/126344968-91721928-202c-459c-ab6f-48ae32ec1cb4.png)
+    - commit changes
 
 4. Navigate to the `LICENSE` file and Copy/Paste one of the following into `LICENSE` file:
 
@@ -78,13 +79,17 @@ Use this repository template to create an "osbooks" repository for a new book. I
       - openstax/content-managers, Role: Admin
       - m1yag1, Role: Admin
       - ne-newton, Role: Admin
-      - {vendor account}, Role: Write (Note: find the book's vendor under column C [here](https://docs.google.com/spreadsheets/d/1dVpPsE2wTIZyoC4n8GnooqpntC2IZDTjcSdNMPycfB0/edit#gid=254689054)).
       - openstax/all, Role: Read
+      - {vendor account}, Role: Write (Note: find the book's vendor under column C [here](https://docs.google.com/spreadsheets/d/1dVpPsE2wTIZyoC4n8GnooqpntC2IZDTjcSdNMPycfB0/edit#gid=254689054)).
+         - Wisewire: TBD
+         - MPS: `mps-openstax`
+         - Six Red Marbles (SRM): `srm-openstax`
+        
 ![Screen Shot 2021-07-20 at 7 49 47 AM](https://user-images.githubusercontent.com/30244554/126347844-c9ce2a0a-0b8d-42b1-bff4-943605d2af3e.png)
 
 ## Final Steps
 
-1. Open the book inside Gitpod. Try adding modules and a subcollection in the ToC editor to test if POET can parse the files correctly.
+1. Open the book inside Gitpod by clicking the green gitpod button in the main book's repo. Click view using github. Try adding test modules and a test subcollection in the ToC editor to test if POET can parse the files correctly.
 2. Create a card for the on [Content Engineering Tech Team board](https://github.com/openstax/cnx/issues/new?assignees=&labels=&template=task.md)
    - Issue Title: review new repository for osbook-new-book-name
    - Include link to new repository
