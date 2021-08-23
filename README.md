@@ -73,7 +73,7 @@ Use this repository template to create an "osbooks" repository for a new book. I
    1. On GitHub, navigate to the main page of this repository.
    2. On top navigation tabs, click **Settings**.
    3. On left navigation, click **Manage access**.
-   4. Using the Manage Acccess panel, to add:
+   4. Using the Manage Acccess panel, click the green "Invite Teams or People" to add the following teams, making sure they each have the proper role indicated below:
       - openstax/ce-all, Role: Write
       - openstax/content-managers, Role: Admin
       - m1yag1, Role: Admin
