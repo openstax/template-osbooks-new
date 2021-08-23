@@ -78,7 +78,7 @@ Use this repository template to create an "osbooks" repository for a new book. I
       - openstax/content-managers, Role: Admin
       - m1yag1, Role: Admin
       - ne-newton, Role: Admin
-      - {vendor account}, Role: Write
+      - {vendor account}, Role: Write (Note: find the book's vendor under column C [here](https://docs.google.com/spreadsheets/d/1dVpPsE2wTIZyoC4n8GnooqpntC2IZDTjcSdNMPycfB0/edit#gid=254689054)).
       - openstax/all, Role: Read
 ![Screen Shot 2021-07-20 at 7 49 47 AM](https://user-images.githubusercontent.com/30244554/126347844-c9ce2a0a-0b8d-42b1-bff4-943605d2af3e.png)
 
