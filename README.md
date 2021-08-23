@@ -36,10 +36,10 @@ Use this repository template to create an "osbooks" repository for a new book. I
 
 1. Once the repository is created, navigate to the `COLLECTIONS` folder. Edit the `collection/template-slug.collection.xml`
     
-    -rename the file by replacing `template-slug` in the filename with the created book slug (eg. `university-physics-volume-1.collection.xml`).
+    - rename the file by replacing `template-slug` in the filename with the created book slug (eg. `university-physics-volume-1.collection.xml`).
         - if the repo is for a bundle (contain multiple books), each book will require their own collection.xml file.
     - inside the file replace:
-        - the uuid with in the `<md:uuid>` field with one genreated [here](https://www.uuidtools.com/v4)
+        - the uuid with in the `<md:uuid>` field with one generated [here](https://www.uuidtools.com/v4)
         - the title in the `<md:title>` field
         - the slug in the `<md:slug>` field
         - and if necessary, the license in the `<md:license>` field
