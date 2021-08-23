@@ -39,11 +39,11 @@ Use this repository template to create an "osbooks" repository for a new book. I
     - rename the file by replacing `template-slug` in the filename with the created book slug (eg. `university-physics-volume-1.collection.xml`).
         - if the repo is for a bundle (contain multiple books), each book will require their own collection.xml file.
     - inside the file replace:
-        - the uuid with in the `<md:uuid>` field with one generated [here](https://www.uuidtools.com/v4)
+        - the uuid with in the `<md:uuid>` field with one generated [here](https://www.uuidtools.com/v4) (Note to CM's: make sure to add this to cnx password sheet)
         - the title in the `<md:title>` field
         - the slug in the `<md:slug>` field
         - and if necessary, the license in the `<md:license>` field
-        - the collection number in the `<md:content-id>` field
+        - the collection number in the `<md:content-id>` field (Note to CM's: make sure to add this to cnx password sheet)
         - the language code in the `<md:language>` field. (`en` for english, `pl` for polish, or `sp` for spanish)
     ![Screen Shot 2021-07-20 at 7 36 30 AM](https://user-images.githubusercontent.com/30244554/126344043-27c4b5aa-c2e9-421b-a3e6-60ca95cd39ef.png)
     - commit changes
