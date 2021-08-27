@@ -81,7 +81,7 @@ Use this repository template to create an "osbooks" repository for a new book. I
       - ne-newton, Role: Admin
       - openstax/all, Role: Read
       - {vendor account}, Role: Write (Note: find the book's vendor under column C [here](https://docs.google.com/spreadsheets/d/1dVpPsE2wTIZyoC4n8GnooqpntC2IZDTjcSdNMPycfB0/edit#gid=254689054)).
-         - Wisewire: TBD
+         - Wisewire: `ww-opentstax`
          - MPS: `mps-openstax`
          - Six Red Marbles (SRM): `srm-openstax`
         
