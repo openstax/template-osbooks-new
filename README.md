@@ -77,9 +77,7 @@ Use this repository template to create an "osbooks" repository for a new book. I
    4. Using the Manage Acccess panel, click the green "Invite Teams or People" to add the following teams, making sure they each have the proper role indicated below:
       - openstax/ce-all, Role: Write
       - openstax/content-managers, Role: Admin
-      - m1yag1, Role: Admin
-      - ne-newton, Role: Admin
-      - openstax/all, Role: Read
+      - openstax/ce-admins, Role: Admin
       - {vendor account}, Role: Write (Note: find the book's vendor under column C [here](https://docs.google.com/spreadsheets/d/1dVpPsE2wTIZyoC4n8GnooqpntC2IZDTjcSdNMPycfB0/edit#gid=254689054)).
          - Wisewire: `ww-openstax`
          - MPS: `mps-openstax`
