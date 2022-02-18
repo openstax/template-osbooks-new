@@ -6,7 +6,7 @@ Use this repository template to create an "osbooks" repository for a new book. I
 ### Overview of Steps
 
 1. **Create osbook repository** - by using this template repository.
-2. **Customize files for new book** - by editing `collections/template-slug.collection.xml`, `META-INF/books.xml`, and `canonical.json`.
+2. **Customize files for new book** - by editing `collections/template-slug.collection.xml`, `META-INF/books.xml`, `LICENSE`, and `canonical.json`.
 3. **Add user permissions*** - allow people to edit the book.
 4. **Test your book in Gitpod** - open the book inside Gitpod, try adding modules and subcollections to ensure that it works.
 
@@ -66,6 +66,7 @@ Use this repository template to create an "osbooks" repository for a new book. I
    - [CC-BY 4.0](https://github.com/openstax/content-synchronizer/blob/main/licenses/by-4.0)
    - [CC-BY-NC-SA 4.0](https://github.com/openstax/content-synchronizer/blob/main/licenses/by-nc-sa-4.0)
    - [CC-SA 4.0](https://github.com/openstax/content-synchronizer/blob/main/licenses/by-sa-4.0)
+   - also update the `<md:license>` tag in the `collection.xml` to match the license, if changed from the default `CC-BY` license.
    - commit changes
 
 ## Add user permissions
