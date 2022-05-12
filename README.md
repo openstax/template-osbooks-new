@@ -50,9 +50,10 @@ Use this repository template to create an "osbooks" repository for a new book. I
 
 2. Navigate to the `META-INF` folder, and edit the `META-INF/books.xml`
     - replace `template.collection.xml` in the `<book href="">` field with the name of the file created in step 1
+    - replace `style` in the `<book style="">` field with the default style for the book
     - replace the book slug in the `<book slug="">` field
         - if this repo is for a bundle, each book will require their own `<book>` field, directing too the associated `collection.xml`
-    ![Screen Shot 2021-07-20 at 7 45 29 AM](https://user-images.githubusercontent.com/30244554/126344715-395b1ab9-9e23-400a-92f1-f903b7d605e3.png)
+   ![Screen Shot 2022-05-12 at 12 14 04 PM](https://user-images.githubusercontent.com/30244554/168151773-b71b6e14-825e-4f6a-9d29-2bf1cf267052.png)
     - commit changes
 
 3. Navigate to the `CANONICAL.JSON` file and edit the `canonical.json`
