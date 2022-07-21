@@ -6,7 +6,7 @@ Use this repository template to create an "osbooks" repository for a new book. I
 ### Overview of Steps
 
 1. **Create osbook repository** - by using this template repository.
-2. **Customize files for new book** - by editing `collections/template-slug.collection.xml`, `META-INF/books.xml`, `LICENSE`, and `canonical.json`.
+2. **Customize files for new book** - by editing `collections/template-slug.collection.xml`, `META-INF/books.xml`, and `LICENSE`.
 3. **Add user permissions*** - allow people to edit the book.
 4. **Test your book in Gitpod** - open the book inside Gitpod, try adding modules and subcollections to ensure that it works.
 
@@ -56,13 +56,7 @@ Use this repository template to create an "osbooks" repository for a new book. I
    ![Screen Shot 2022-05-12 at 12 14 04 PM](https://user-images.githubusercontent.com/30244554/168151773-b71b6e14-825e-4f6a-9d29-2bf1cf267052.png)
     - commit changes
 
-3. Navigate to the `CANONICAL.JSON` file and edit the `canonical.json`
-    - add the created slug to the list.
-        - if this repo is for a bundle, each book slug will need to be added to the list.
-    ![Screen Shot 2021-07-20 at 7 47 20 AM](https://user-images.githubusercontent.com/30244554/126344968-91721928-202c-459c-ab6f-48ae32ec1cb4.png)
-    - commit changes
-
-4. Navigate to the `LICENSE` file and Copy/Paste one of the following into `LICENSE` file:
+3. Navigate to the `LICENSE` file and Copy/Paste one of the following into `LICENSE` file:
 
    - [CC-BY 4.0](https://github.com/openstax/content-synchronizer/blob/main/licenses/by-4.0)
    - [CC-BY-NC-SA 4.0](https://github.com/openstax/content-synchronizer/blob/main/licenses/by-nc-sa-4.0)
