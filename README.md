@@ -75,10 +75,7 @@ Use this repository template to create an "osbooks" repository for a new book. I
       - openstax/content-managers, Role: Admin
       - openstax/ce-admins, Role: Admin
       - openstax/katalyst, Role: Read
-      - {vendor account}, Role: Write (Note: find the book's vendor under column C [here](https://docs.google.com/spreadsheets/d/1dVpPsE2wTIZyoC4n8GnooqpntC2IZDTjcSdNMPycfB0/edit#gid=254689054)).
-         - Wisewire: `ww-openstax`
-         - MPS: `mps-openstax`
-         - Six Red Marbles (SRM): `srm-openstax`
+      - Don't add a vendor account at this time. We (usually Alina) will do this when we are releasing production start materials to the vendor.
         
 ![User Permissions](https://user-images.githubusercontent.com/8730430/133662150-76513e6a-ee23-44bf-b5b8-119f721ca3d7.png)
 
