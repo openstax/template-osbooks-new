@@ -13,10 +13,10 @@ repository:
 
 teams:
   - name: ce-admins
-    permission: push
+    permission: admin
   - name: ce-all
     permission: pull
   - name: content-managers
-    permission: push
+    permission: admin
   - name: katalyst
     permission: pull
